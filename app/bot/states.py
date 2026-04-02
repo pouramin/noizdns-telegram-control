@@ -1,0 +1,12 @@
+from __future__ import annotations
+
+(
+    ADD_SERVER_NAME,
+    ADD_SERVER_HOST,
+    ADD_SERVER_PORT,
+    ADD_SERVER_USERNAME,
+    ADD_SERVER_AUTH_TYPE,
+    ADD_SERVER_SECRET,
+    ADD_SERVER_DOMAIN,
+    ADD_SERVER_MTU,
+) = range(8)
